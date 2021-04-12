@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="9" passed="3" failed="5" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-11T11:16:08 IST" name="NBK_DVP_API_Automation" finished-at="2021-04-11T11:16:27 IST" duration-ms="19413">
+  <suite started-at="2021-04-12T11:17:54 IST" name="NBK_DVP_API_Automation" finished-at="2021-04-12T11:18:08 IST" duration-ms="13782">
     <groups>
     </groups>
-    <test started-at="2021-04-11T11:16:08 IST" name="Test" finished-at="2021-04-11T11:16:27 IST" duration-ms="19413">
+    <test started-at="2021-04-12T11:17:54 IST" name="Test" finished-at="2021-04-12T11:18:08 IST" duration-ms="13782">
       <class name="nbk.api.request.activation.AllPOSTRequestWithOneActivationID">
-        <test-method signature="EmailActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:09 IST" name="EmailActivationPOSTwithActivationID" finished-at="2021-04-11T11:16:16 IST" duration-ms="7295" status="PASS">
+        <test-method signature="EmailActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:17:55 IST" name="EmailActivationPOSTwithActivationID" finished-at="2021-04-12T11:18:00 IST" duration-ms="4624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailActivationPOSTwithActivationID -->
-        <test-method signature="PhoneActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:16 IST" name="PhoneActivationPOSTwithActivationID" finished-at="2021-04-11T11:16:18 IST" duration-ms="1783" status="FAIL">
+        <test-method signature="PhoneActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:00 IST" name="PhoneActivationPOSTwithActivationID" finished-at="2021-04-12T11:18:01 IST" duration-ms="1333" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -95,17 +95,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PhoneActivationPOSTwithActivationID -->
-        <test-method signature="TermsConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:18 IST" name="TermsConfirmationPOSTwithActivationID" finished-at="2021-04-11T11:16:20 IST" duration-ms="1880" status="PASS">
+        <test-method signature="TermsConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:01 IST" name="TermsConfirmationPOSTwithActivationID" finished-at="2021-04-12T11:18:02 IST" duration-ms="1182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TermsConfirmationPOSTwithActivationID -->
-        <test-method signature="TermsActivationGETwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:20 IST" name="TermsActivationGETwithActivationID" finished-at="2021-04-11T11:16:21 IST" duration-ms="1766" status="FAIL">
+        <test-method signature="TermsActivationGETwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:02 IST" name="TermsActivationGETwithActivationID" finished-at="2021-04-12T11:18:03 IST" duration-ms="1195" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
 Expected header "Content-Length" was not "1623", was "1841". Headers are:
 Server=nginx/1.19.6
-Date=Sun, 11 Apr 2021 05:46:42 GMT
+Date=Mon, 12 Apr 2021 05:49:24 GMT
 Content-Type=application/json
 Content-Length=1841
 Connection=keep-alive
@@ -115,7 +115,7 @@ Connection=keep-alive
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected header "Content-Length" was not "1623", was "1841". Headers are:
 Server=nginx/1.19.6
-Date=Sun, 11 Apr 2021 05:46:42 GMT
+Date=Mon, 12 Apr 2021 05:49:24 GMT
 Content-Type=application/json
 Content-Length=1841
 Connection=keep-alive
@@ -189,11 +189,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TermsActivationGETwithActivationID -->
-        <test-method signature="UsernameActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:21 IST" name="UsernameActivationPOSTwithActivationID" finished-at="2021-04-11T11:16:23 IST" duration-ms="1486" status="PASS">
+        <test-method signature="UsernameActivationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:03 IST" name="UsernameActivationPOSTwithActivationID" finished-at="2021-04-12T11:18:05 IST" duration-ms="1435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsernameActivationPOSTwithActivationID -->
-        <test-method signature="PasswordSetupPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:23 IST" name="PasswordSetupPOSTwithActivationID" finished-at="2021-04-11T11:16:24 IST" duration-ms="1531" status="FAIL">
+        <test-method signature="PasswordSetupPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:05 IST" name="PasswordSetupPOSTwithActivationID" finished-at="2021-04-12T11:18:06 IST" duration-ms="1137" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -274,13 +274,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PasswordSetupPOSTwithActivationID -->
-        <test-method signature="AllRequestswithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:24 IST" name="AllRequestswithActivationID" finished-at="2021-04-11T11:16:26 IST" duration-ms="1431" status="FAIL">
+        <test-method signature="AllRequestswithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:06 IST" name="AllRequestswithActivationID" finished-at="2021-04-12T11:18:07 IST" duration-ms="1159" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
 Expected header "Content-Length" was not "1623", was "1841". Headers are:
 Server=nginx/1.19.6
-Date=Sun, 11 Apr 2021 05:46:47 GMT
+Date=Mon, 12 Apr 2021 05:49:28 GMT
 Content-Type=application/json
 Content-Length=1841
 Connection=keep-alive
@@ -290,7 +290,7 @@ Connection=keep-alive
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
 Expected header "Content-Length" was not "1623", was "1841". Headers are:
 Server=nginx/1.19.6
-Date=Sun, 11 Apr 2021 05:46:47 GMT
+Date=Mon, 12 Apr 2021 05:49:28 GMT
 Content-Type=application/json
 Content-Length=1841
 Connection=keep-alive
@@ -363,7 +363,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllRequestswithActivationID -->
-        <test-method signature="EmailConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:26 IST" name="EmailConfirmationPOSTwithActivationID" finished-at="2021-04-11T11:16:27 IST" depends-on-methods="nbk.api.request.activation.AllPOSTRequestWithOneActivationID.EmailActivationPOSTwithActivationID" duration-ms="1521" status="FAIL">
+        <test-method signature="EmailConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:07 IST" name="EmailConfirmationPOSTwithActivationID" finished-at="2021-04-12T11:18:08 IST" depends-on-methods="nbk.api.request.activation.AllPOSTRequestWithOneActivationID.EmailActivationPOSTwithActivationID" duration-ms="1194" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -444,13 +444,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailConfirmationPOSTwithActivationID -->
-        <test-method signature="PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f]" started-at="2021-04-11T11:16:27 IST" name="PhoneConfirmationPOSTwithActivationID" finished-at="2021-04-11T11:16:27 IST" depends-on-methods="nbk.api.request.activation.AllPOSTRequestWithOneActivationID.PhoneActivationPOSTwithActivationID" duration-ms="0" status="SKIP">
+        <test-method signature="PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1]" started-at="2021-04-12T11:18:08 IST" name="PhoneConfirmationPOSTwithActivationID" finished-at="2021-04-12T11:18:08 IST" depends-on-methods="nbk.api.request.activation.AllPOSTRequestWithOneActivationID.PhoneActivationPOSTwithActivationID" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method AllPOSTRequestWithOneActivationID.PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f] depends on not successfully finished methods]]>
+              <![CDATA[Method AllPOSTRequestWithOneActivationID.PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method AllPOSTRequestWithOneActivationID.PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@20f5239f] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method AllPOSTRequestWithOneActivationID.PhoneConfirmationPOSTwithActivationID()[pri:0, instance:nbk.api.request.activation.AllPOSTRequestWithOneActivationID@50ad3bc1] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)

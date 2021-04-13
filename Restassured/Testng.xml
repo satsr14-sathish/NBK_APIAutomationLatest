@@ -17,7 +17,7 @@
 		<classes>
 			<class name = "nbk.api.request.activation.AllPOSTRequestWithOneActivationID">
 			<methods>
-            <include name="EmailActivationPOSTwithActivationID"></include>
+            <!-- <include name="EmailActivationPOSTwithActivationID"></include>
             <include name="EmailConfirmationPOSTwithActivationID"></include>
             
             <include name="PhoneActivationPOSTwithActivationID"></include>
@@ -28,7 +28,7 @@
             <include name="UsernameActivationPOSTwithActivationID"></include>
             <include name="PasswordSetupPOSTwithActivationID"></include>
             
-            
+             -->
             <include name="AllRequestswithActivationID"></include>
             <include name="UsernameActivationPOSTwithActivationID"></include>
             </methods>

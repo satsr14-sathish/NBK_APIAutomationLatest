@@ -35,6 +35,8 @@ public class AllPOSTRequestWithOneActivationID
 	  emailconf.EmailConfirmationPOSTRequest(activid);
 	  //passset.PasswordActivationPOSTRequest(activid);
 	  
+	  System.out.println("passing activaiton id to all requests");
+	  
 	  }
 	 
 	

@@ -8,13 +8,7 @@
     <classes>
       <class name="nbk.api.request.activation.AllPOSTRequestWithOneActivationID">
         <methods>
-          <include name="EmailActivationPOSTwithActivationID"/>
-          <include name="PhoneConfirmationPOSTwithActivationID"/>
-          <include name="TermsActivationGETwithActivationID"/>
           <include name="AllRequestswithActivationID"/>
-          <include name="EmailConfirmationPOSTwithActivationID"/>
-          <include name="PasswordSetupPOSTwithActivationID"/>
-          <include name="PhoneActivationPOSTwithActivationID"/>
         </methods>
       </class> <!-- nbk.api.request.activation.AllPOSTRequestWithOneActivationID -->
     </classes>

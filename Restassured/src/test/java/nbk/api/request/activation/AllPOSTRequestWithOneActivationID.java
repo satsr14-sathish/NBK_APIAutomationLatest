@@ -98,6 +98,7 @@ public class AllPOSTRequestWithOneActivationID
 		cert.CertificateActivationPOSTRequest();
 		String activid = cert.getActid();
 		usernameact.UsernameActivationPOSTRequest(activid);
+		System.out.println("usernameact");
 
 	}
 	

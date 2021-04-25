@@ -1,0 +1,21 @@
+package nbk.api.pojoclasses;
+
+public class password {
+
+	private String certificateSigningRequestB64;
+	private String value;
+	public String getCertificateSigningRequestB64() {
+		return certificateSigningRequestB64;
+	}
+	public void setCertificateSigningRequestB64(String certificateSigningRequestB64) {
+		this.certificateSigningRequestB64 = certificateSigningRequestB64;
+	}
+	public String getValue() {
+		return value;
+	}
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+	
+}
